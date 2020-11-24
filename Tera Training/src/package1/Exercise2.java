@@ -28,8 +28,8 @@ public class Exercise2 {
 	   }
 	   else{
 		   
-		    long finalAns = toMilesPerHour(kilometersPerHour * 0.62137);
-		    System.out.println(kilometersPerHour + " km/h = " + finalAns + " mi/h");
+		    long miles = toMilesPerHour(kilometersPerHour * 0.62137);
+		    System.out.println(kilometersPerHour + " km/h = " + miles + " mi/h");
 	   
 	   }
 	}
