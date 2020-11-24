@@ -10,7 +10,14 @@ public class Exercise1 {
 		
 		displayHighScorePosition("eli", highScore);
 		
+		
+		highScore = calcultedHighScorePosition(200);
+		displayHighScorePosition("player 2", highScore);
 	
+
+		highScore = calcultedHighScorePosition(1000);
+		displayHighScorePosition("player 3", highScore);
+		
 	}
 	
 	public static void displayHighScorePosition(String name, int position){
